@@ -6,11 +6,6 @@
   padding: 0;
 }
 
-html,
-body,
-.wrapper {
-  height: 100%;
-}
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -42,6 +37,11 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+  color: black;
+}
+
+h1 {
+  color: white;
 }
 
 select {
